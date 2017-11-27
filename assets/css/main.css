@@ -85,6 +85,10 @@ footer{
   background-color: #343A40;
 }
 footer .col-12{
-  padding: 3% 40%;
+  padding: 3% ;
+  padding-left: 40%;
   color: white;
+}
+footer p{
+  width: 100%;
 }
