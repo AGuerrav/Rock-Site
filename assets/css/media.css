@@ -1,0 +1,11 @@
+@media (min-width: 200px) and (max-width: 700px){
+  [class*= 'col-']{
+    width: 100%;
+  }
+  .col-1{
+    display: none;
+    content: "For those about to rock..."
+  }
+
+
+}
