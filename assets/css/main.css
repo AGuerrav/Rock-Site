@@ -12,12 +12,20 @@ h1{
   font-size: 17px;
 }
 .col-1 a{
-
   color: #97A6B2;
   text-decoration: none;
 }
 .col-1 a:hover{
   color: white;
+}
+.appear{
+  display: none;
+}
+.fa-bars{
+  border: 1px solid #97a6b2;
+  padding: 10px;
+  border-radius: 5px;
+  color: #97a6b2;
 }
 .container-title{
   background-image: url(../images/header.jpg) ;
@@ -27,7 +35,6 @@ h1{
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-
 }
 .title::before{ /*capa que oscurece la imagen*/
   content:"";
@@ -39,21 +46,18 @@ h1{
   background:rgba(0,0,0,0.6);
 }
 .title {
-  margin-left: 20%;
-  margin-top: 10%;
+  padding-top: 10%;
   margin-bottom: 15%;
   text-align: center;
   color: white;
-
 }
 .title h2{
-  font-size: 70px;
+  font-size: 90px;
   font-weight: 500;
   color: white;
-
 }
 h4{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 400;
 }
 .col-6 h4{
@@ -81,6 +85,6 @@ footer{
   background-color: #343A40;
 }
 footer .col-12{
-  margin: 3% 40%;
+  padding: 3% 40%;
   color: white;
 }

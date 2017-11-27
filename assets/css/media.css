@@ -2,9 +2,13 @@
   [class*= 'col-']{
     width: 100%;
   }
-  .col-1{
+  .disappear{
     display: none;
-    content: "For those about to rock..."
+  }
+  .appear{
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: -60px;
   }
 
 
